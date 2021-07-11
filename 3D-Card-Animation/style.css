@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    /*
+    Check perspective: 100px => will you see difference
+    */
+}
+.container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    transform-style: preserve-3d;
+    min-height: 60vh;
+    width:30rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.4) ;
+}
+.watch{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.watch img{
+    width: 20rem;
+    z-index: 2;
+    transition: all 0.75s ease-out
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(90deg, rgb(104, 70, 127) 0%, rgb(212, 78, 78) 50%, rgb(229, 165, 69) 100%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+.info h1{
+    font-size: 4rem;
+    transition: all 0.75s ease-out
+}
+.info h1:hover{
+    color : #b62626;
+    transition: all 0.6s ease-in-out;
+}
+.info h3{
+    font-size: 1.4rem;
+    padding: 2rem 0rem;
+    color:#585858 ;
+    font-weight: lighter;
+}
+.info h3:hover{
+    color: #b62626;
+    transition: all 0.6s ease-in-out;
+}
+.sizes{
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.75s ease-out;
+}
+.sizes button{
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+button.active{
+    background: #233361;
+    color: aliceblue;
+}
+button:hover{
+    background: rgba(4, 74, 144, 0.2);
+    transition-duration: 500ms ;
+}
+.addToBag{
+    margin-top: 2.5rem;
+}
+.addToBag button{
+    width: 100%;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background: #0070c9;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+.addToBag button:hover{
+    background: #5f95c2;
+    transition-duration: 500ms ;
+}
