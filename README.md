@@ -13,9 +13,8 @@
 
 ### Check projects
 
-- Color Generator : https://mbakin.github.io/js-tutorial-practice/color-generator/
-
-
+- Color Generator : https://mbakin.github.io/js-tutorial-practice/color-generator
+- 3D-Card-Animation : https://mbakin.github.io/js-tutorial-practice/3D-Card-Animation
 
 
 
