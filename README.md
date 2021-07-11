@@ -10,3 +10,13 @@
 - [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
 
 <br>
+
+###Check projects
+
+- Color Generator : https://mbakin.github.io/js-tutorial-practice/color-generator/
+
+
+
+
+
+
